@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const featuredEvents = getFeaturedEvents()
   return (
-    <main>
+    <main style={{display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh'}}>
       <EventsList events={featuredEvents} />
     </main>
   )
