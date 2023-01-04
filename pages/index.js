@@ -18,6 +18,8 @@ export default function Home() {
     <main style={{display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh'}}>
       <EventsList events={featuredEvents} />
     <Link href={'/events/learning/next/js'}>To slug</Link>
+    <video style={{width: 300}} autoPlay muted src={'/images/video.mp4'} loop >
+      </video>        
     </main>
     </>
 
